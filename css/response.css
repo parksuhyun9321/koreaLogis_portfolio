@@ -1,0 +1,281 @@
+@media all and (max-width:1740px) {
+    #footer select{
+        right: 0;
+    }
+    #footer address {
+        right: 30%;
+    }
+}
+@media all and (max-width:1340px) {
+    #logo {
+        left: 25px;
+    }
+    #gnb .list > li .depth01 {
+        padding: 0 30px;
+    }
+    .btnSearch {
+        position: absolute;
+        right: 15%;
+        top: 20px;
+        font-size: 30px;
+        color: #fff;
+    }
+}
+@media all and (max-width:1130px){
+    #header {
+        position: fixed;
+        border-bottom: 1px solid #fff;
+        text-align: left;
+    }
+    .utilMenu {
+        display: inline-block;
+    }
+    .searchBar {
+        text-align: center;
+    }
+    .searchBox input{
+        width: 400px;
+    }
+    #gnb {
+        position: fixed;
+        width: 50%;
+        min-height: 100%;
+        top: 50px;
+        left:100% ;
+        background-color: rgba(0,0,0,0.9);
+        transition: 0.5s ease;
+    }
+    #gnb .list {
+        width: 100% !important;
+    }
+    #gnb .list > li {
+        float: none;
+        position: relative;
+        left: 0;
+    }
+    #gnb .list > li .depth01 {
+        text-align: left;
+        display: block;
+    }
+    #gnb .list > li .depth01 {
+        line-height: 50px;
+        padding-left: 30px;
+        position: relative;
+    }
+    #gnb .list > li .depth01:before {
+        content: '';
+        display: block;
+        width: 5px;
+        height:5px;
+        border-radius: 100px;
+        background-color: #fff;
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #gnb .list > li .depth02 {
+        left: 0;
+        color: #fff;
+        opacity: 0.7;
+        background: none;
+    }
+    #gnb .list > li .depth02 li a {
+        position: relative;
+        left: 20px;
+    }
+    #gnb .list > li .depth02 li a:before {
+        content: '';
+        display: block;
+        width: 8px;
+        height:2px;
+        background-color: #fff;
+        position: absolute;
+        left: -12px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #gnb .list > li .depth02 li {
+        border-bottom: 1px solid #d9d9d9;
+    }
+    #gnb .list > li .depth02 li:hover {
+        background: none;
+    }
+    body.open #gnb {
+        left: 50%;
+    }
+}
+@media all and (max-width:970px) {
+    #section02 {
+        background:#141d29;
+    }
+    #section02 .inner {
+        width: 100%;
+        margin:0;
+    }
+    #section02 .txtBox:after {
+        width: 100%;
+        margin: 20px 0;
+    }
+    #section02 .txtBox {
+        text-align: center;
+    }
+    #section02 .txtBox h2{
+        font-size: 32px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 0;
+    }
+    #section02 .txtBox .main {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    #section02 .txtBox .sub{
+       font-size: 14px;
+       padding: 5px;
+       word-break: keep-all;
+    }
+    #section02 .info {
+        padding-left: 20px;
+    }
+    #section02 .info li{
+        float: left;
+        margin-right: 0;
+        width: 50%;
+        padding: 50px;
+    }
+    #section02 .info li .img p strong {
+        font-size: 56px;
+        font-weight: 700;
+        color: #fff;
+        margin-right: 5px;
+    }
+    #section02 .info li .txt {
+        margin-top: 10px;
+    }
+    #footer {
+        text-align: left;
+        height: 150px !important;
+    }
+    #footLogo{
+        top: 0;
+        left: 0;
+    }  
+    #footer address {
+        font-size: 12px;
+        left: 0;
+        top: 55px;
+        width: 100%;
+    }
+    #footer select {
+        position: absolute;
+        right: 0;
+        top: 30px;
+        border: 1px solid #fff;
+        background-color: #333;
+        color: #fff;
+        padding: 5px 5px 4px 5px;
+        outline: none;
+    }
+    #footer address ul li{
+        float: none;
+    }
+}
+@media all and (max-width:650px){
+    #header {
+        height: 50px;
+        background-color: #000;
+        border: none;
+    }
+    #logo {
+        position: absolute;
+        top: 5px;
+    }
+    #logo img {
+        width: 130px;
+    }
+    .btnSearch {
+        position: absolute;
+        right: 15%;
+        top: 5px;
+        font-size: 30px;
+        color: #fff;
+    }
+    .searchBox input{
+        width: 280px;
+    }
+    .utilMenu {
+        position: absolute;
+        top: 16px;
+    }
+    #section01 {
+        width: 100%;
+    }  
+    #section01 .txtBox {
+        left: 20px;
+    }  
+    #section01 .txtBox .main {
+        font-size: 40px;
+    }
+    #section01 .txtBox .sub {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    #section02 .info li {
+        padding: 10px;
+    }
+    #section02 .info li .img p strong {
+        font-size: 36px;
+    }
+    #section02 .info li .img img{
+        width: 40px;
+        height: 40px;
+    }
+    #section02 .info li .txt p{
+        font-size: 13px;
+        word-break: keep-all;
+    }
+    #section03 ul li p {
+        font-size: 18px;
+        left: 0;
+       margin: 5px;
+        word-break: keep-all;
+    }
+    #section03 ul li .btnView {
+        left: 20px;
+        right: 20px;
+        bottom: 20%;
+        line-height: 1;
+    }
+}
+@media all and (max-width:350px){
+    #header .btnSearch{
+        right: 20%;
+    }
+    .searchBox input {
+        width: 250px;
+        padding: 0;
+    }
+    .searchBox input::placeholder {
+        padding-left: 20px;
+    }
+    #section01 .txtBox .main {
+        font-size: 34px;
+    }
+    #section02 .info li .img img {
+        width: 25px;
+        height: 25px;
+    }
+    #section02 .info li .img p strong {
+        font-size: 26px;
+    }
+    #section03 ul li .btnView {
+        bottom: 15%;
+        left: 10%;
+    }
+    #section03 ul li p {
+        font-size: 14px;
+    }  
+
+} 

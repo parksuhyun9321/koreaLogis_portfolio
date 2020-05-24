@@ -1,0 +1,194 @@
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Noto Sans KR';
+    color:#fff;
+    line-height: 1.5;
+    background-color: #000;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#header {
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 9999;
+    text-align: center;
+}
+#logo {
+    position: absolute;
+    display: block;
+    top: 30px;
+    left: 50px;
+}
+#logo img{
+    width: 150px;
+}
+#gnb .list {
+    display: inline-block;
+}
+#gnb .list > li {
+    float: left;
+}
+#gnb .list > li .depth01 {
+    padding: 0 70px;
+    line-height: 90px;
+    font-weight: 700;
+}
+
+#gnb .list > li .depth02 {
+    position: relative;
+    left: 60px;
+    width: 100%;
+    height: 100%;
+    color: #5e6671;
+    background: #141d29;
+    text-align: left;
+    font-size: 14px ;
+    padding: 20px 0;
+    display: none;
+}
+#gnb .list > li .depth01:hover .depth02 {
+    display: block;
+}
+#gnb .list > li .depth02 li {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+}
+#gnb .list > li .depth02 li a {
+    position: relative;
+    left: 30px;
+}
+#gnb .list > li .depth02 li:hover {
+    background: #074bba;
+    color: #fff;
+    font-weight: 700;
+}
+.btnSearch {
+    position: absolute;
+    right: 100px;
+    top: 35px;
+    font-size: 30px;
+    color: #fff;
+}
+.utilMenu {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    display: none;
+}
+.utilMenu span:nth-child(1){
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.utilMenu span:nth-child(2){
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+}
+
+.searchBar {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #141d29;
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 999;
+}
+.searchBar .btnClose {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    height: 23.33px;
+    cursor: pointer;
+}
+.searchBar .btnClose span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: -2px 0;
+}
+.searchBar .btnClose span:nth-child(1){transform: rotate(45deg);}
+.searchBar .btnClose span:nth-child(2){transform: rotate(-45deg);}
+.searchBar .title {
+    line-height: 1.3;
+    padding-bottom: 35px;
+}
+.searchBar .title h2{
+    font-size: 2rem;
+}
+.searchBar .title p {
+    font-size: 1.2rem;
+}
+.searchBox {
+    display: inline-block;
+}
+.searchBox input{
+    width: 500px;
+    height: 70px;
+    background-color: #121924;
+    border: 1px solid #303741;
+    border-right: none;
+    color: #fff;
+    padding: 0 40px;
+    float: left;
+    font-size: 1.2rem;
+    outline: none;
+}
+.searchBox .submit {
+    width: 70px;
+    height: 70px;
+    background: #074dbe url("../images/icon_search.png") no-repeat center;
+    cursor: pointer;
+}
+#footer {
+    width: 100%;
+    height: 100px !important;
+    position: relative;
+}
+#footLogo {
+    position: absolute;
+    display: block;
+    top: 15px;
+    left: 50px;
+}
+#footLogo img {
+    width: 150px;
+}
+#footer address {
+    position: absolute;
+    right: 15%;
+    top: 30px;
+}
+#footer address ul {
+    display: inline-block;
+}
+#footer address ul li {
+    float: left;
+}
+#footer address .copy {
+    opacity: 0.4;
+}
+#footer select {
+    position: absolute;
+    right: 35px;
+    top: 30px;
+    border: 1px solid #fff;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 40px 8px 30px;
+    outline: none;
+}

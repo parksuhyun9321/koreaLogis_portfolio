@@ -1,0 +1,165 @@
+.section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#section01 {
+    background: url("../images/section01/visual01.jpg") no-repeat 50%;
+    background-size: cover;
+}
+#section01 .txtBox {
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+}
+#section01 .txtBox .main {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+#section01 .txtBox .sub {
+    font-size: 22px;
+    margin-top: 30px;
+}
+/* section01 end */
+#section02 {
+    width: 100%;
+    background: url("../images/section02/sideVisual.jpg") no-repeat right #141d29;
+    position: relative;
+    color: #5e6671;
+}
+#section02 .inner {
+    width: 1400px;
+    margin: 5% auto;
+}
+#section02 .txtBox:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 50px;
+}
+#section02 .txtBox:after {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 1px;
+    background-color: #5e6671;
+    margin: 100px 0;
+}
+#section02 .txtBox h2{
+    font-size: 66px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#section02 .txtBox .main {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+#section02 .txtBox .sub .br{
+    display: none;
+}
+#section02 .info li{
+    float: left;
+    margin-right: 80px;
+}
+#section02 .info li .img p strong {
+    font-size: 56px;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 5px;
+}
+#section02 .info li .txt {
+    font-size: 14px;
+    margin-top: 40px;
+}
+#section02 .info li .txt p span{
+    color: #9da7b4;
+}
+/* section02 end */
+#section03 {
+    background-color: #000;
+    height: 100vh;
+    width: 100% !important;
+}
+#section03 ul {
+    display: inline-block;
+    width: 100%;
+}
+#section03 ul li {
+    width: 33.33%;
+    height: 100vh;
+    float: left;
+    position: relative;
+    display: block;
+    transition: 0.25s ease;
+}
+#section03 ul li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    transition: 0.4s ease;
+}
+#section03 ul li:nth-child(1){
+    background: url("../images/section03/menu01.jpg") no-repeat 50% 100%;
+    background-size: cover;
+}
+#section03 ul li:nth-child(2){
+    background: url("../images/section03/menu02.jpg") no-repeat 50% 100%;
+    background-size: cover;
+}
+#section03 ul li:nth-child(3){
+    background: url("../images/section03/menu03.jpg") no-repeat 50% 100%;
+    background-size: cover;
+}
+#section03 ul li p {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translateY(-50%);
+    font-size: 28px;
+    font-weight: 400;
+}
+#section03 ul li p:before {
+    content: '';
+}
+#section03 ul li .btnView {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 82px 10px 0;
+    bottom: 30%;
+    left: 15%;
+    transition: 0.25s ease;
+    color: #fff;
+    cursor: pointer;
+}
+#section03 ul li .btnView:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+}
+#section03 ul li .btnView:after {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 7px;
+    background: url("../images/section03/icon_btn.png") no-repeat center;
+    background-size: 100%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -3px;
+}
+#section03 ul li a:hover{
+    background-color: rgba(0,0,0,0.5);   
+}
+#section03 ul li .btnView a:hover {
+    background: none;
+}
