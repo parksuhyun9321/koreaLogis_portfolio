@@ -118,10 +118,11 @@
 #section03 ul li p {
     position: absolute;
     top: 45%;
-    left: 15%;
     transform: translateY(-50%);
     font-size: 28px;
     font-weight: 400;
+    padding: 25px;
+    word-break: keep-all;
 }
 #section03 ul li p:before {
     content: '';
