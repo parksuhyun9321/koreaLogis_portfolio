@@ -237,8 +237,8 @@
         word-break: keep-all;
     }
     #section03 ul li p {
-        font-size: 18px;
-        left: 0;
+        font-size: 14px;
+        left: 10px;
        margin: 5px;
         word-break: keep-all;
     }
@@ -275,7 +275,7 @@
         left: 10%;
     }
     #section03 ul li p {
-        font-size: 14px;
+        left: 0;
     }  
 
 } 
