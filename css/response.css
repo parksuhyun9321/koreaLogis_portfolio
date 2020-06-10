@@ -272,7 +272,8 @@
         bottom: 15%;
     }
     #section03 ul li p {
-        left: 20px;
+        left: 0;
+        padding: 20px;
         font-size: 14px;
     }  
 
