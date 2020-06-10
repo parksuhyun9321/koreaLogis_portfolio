@@ -237,9 +237,7 @@
         word-break: keep-all;
     }
     #section03 ul li p {
-        font-size: 14px;
         left: 10px;
-       margin: 5px;
         word-break: keep-all;
     }
     #section03 ul li .btnView {
@@ -249,7 +247,7 @@
         line-height: 1;
     }
 }
-@media all and (max-width:350px){
+@media all and (max-width:590px){
     #header .btnSearch{
         right: 20%;
     }
@@ -272,10 +270,10 @@
     }
     #section03 ul li .btnView {
         bottom: 15%;
-        left: 10%;
     }
     #section03 ul li p {
-        left: 0;
+        left: 20px;
+        font-size: 14px;
     }  
 
 } 
